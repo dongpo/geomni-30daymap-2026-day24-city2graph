@@ -10,4 +10,14 @@
 
 資料來自OpenStreetMap，並非完整的城市實測。場所不是地籍，介面也不等於核實的入口；圖上的空白可能包含資料缺漏。附上32秒操作影片，展示五城總覽與異構圖的三種連結。
 
+
+🗺️ 五城互動地圖：
+https://dongpo.github.io/geomni-30daymap-2026-day24-city2graph/
+
+🎬 32秒操作影片：
+https://dongpo.github.io/geomni-30daymap-2026-day24-city2graph/video/Day24-city2graph-operation-32s.mp4
+
+💻 程式、資料與方法：
+https://github.com/dongpo/geomni-30daymap-2026-day24-city2graph
+
 #30DayMapChallenge2026 #City2Graph #UrbanMorphology #GIS #Geomni

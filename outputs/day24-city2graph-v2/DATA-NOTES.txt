@@ -1,0 +1,15 @@
+Day24 六都城市形態圖 — 建構中，尚未完成地圖驗收
+2026-11-24 本人確認以city2graph場所—街道形態圖製作，非軌道可達性。
+資料：Geofabrik臺灣OSM 2026-11-09快照，© OpenStreetMap contributors，ODbL 1.0。
+原始檔：outputs/day11-spatial-v4/source/taiwan-261109.osm.pbf。
+建物包含building ways與multipolygon relations；同OSM識別碼去重。行政範圍用既有counties.geojson，建物以內部代表點歸屬，道路保留與行政區相交者。
+街段沿OSM共用節點拆分。形態建構目前僅使用地面道路；橋隧標記道路明確排除，不將投影交叉當作連通。這會省略高架/地下的實際網絡，結果不可當導航圖。
+場所為模型鑲嵌，不是地籍；空間介面不是已核實出入口。
+OSM建物缺漏尚待六都資料核對，不能把稀疏圖資直接解釋為城市稀疏。
+不使用合成GTFS、不推估人流；保留原始資料與輸出。
+
+來源網址：https://download.geofabrik.de/asia/taiwan.html
+OSM授權：https://www.openstreetmap.org/copyright
+縣市界：NLSC https://data.gov.tw/dataset/7442，政府資料開放授權條款第1版；使用既有簡化幾何，保存SHA256識別。
+官方方法：https://city2graph.net/latest/examples/morphological_graph_from_overturemaps.html
+街段選取含motorway/trunk/primary/secondary/tertiary及link、residential/unclassified/living_street/service，非完整步行網絡。

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-24",
+  "overview_cities": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "overview_window_m": [
+    30000,
+    30000
+  ],
+  "full_graph_preserved": true,
+  "city_clicks_tested": [
+    "雙北",
+    "臺中"
+  ],
+  "zoom_buttons_tested": true,
+  "return_overview_tested": true,
+  "mobile_not_tested": true,
+  "user_approved": false
+}

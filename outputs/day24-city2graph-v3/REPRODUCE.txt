@@ -1,0 +1,11 @@
+Day24 雙北合併形態圖
+1. 原始來源、抽取程序與原六都結果保留於 outputs/day24-city2graph-v2。
+2. 使用 work/day24-venv（city2graph 1.1.0；依賴詳 requirements-lock.txt）。
+3. 由專案根目錄執行：
+work/day24-venv/bin/python outputs/day24-city2graph-v3/scripts/merge_build.py
+work/day24-venv/bin/python outputs/day24-city2graph-v3/scripts/cross_city.py
+work/day24-venv/bin/python outputs/day24-city2graph-v3/scripts/export_binary.py 0
+work/day24-venv/bin/python outputs/day24-city2graph-v3/scripts/export_inspect.py 0
+work/day24-venv/bin/python outputs/day24-city2graph-v3/scripts/validate.py
+4. 專案根目錄啟動HTTP服務後開啟 outputs/day24-city2graph-v3/index.html。
+資料不是兩份成圖合併。雙北先合併來源建物與街段，建物以OSM識別碼去重，街段以OSM識別碼及正規化完整幾何去重（保留同一way的不同街段）。一次呼叫morphological_graph重新建立鑲嵌及全部關係。其餘四都沿用同一來源、同一參數已完成輸出。

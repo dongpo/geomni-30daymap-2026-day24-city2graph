@@ -1,0 +1,14 @@
+{
+  "city": "臺北市",
+  "city2graph": "1.1.0",
+  "seconds": 585.9731991253793,
+  "nodes": {
+    "place": 82463,
+    "movement": 51819
+  },
+  "edges": {
+    "place--touched_to--place": 139028,
+    "movement--connected_to--movement": 106703,
+    "place--faced_to--movement": 273361
+  }
+}

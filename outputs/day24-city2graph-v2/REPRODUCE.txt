@@ -1,0 +1,15 @@
+在專案根目錄執行，Python3.12；套件版本見requirements-lock.txt。
+1. 安裝鎖定環境：work/day24-venv/bin/pip install -r outputs/day24-city2graph-v2/requirements-lock.txt
+2. 原始PBF沿用outputs/day11-spatial-v4/source/taiwan-261109.osm.pbf。
+3. osmium tags-filter 原始PBF w/building r/building -o outputs/day24-city2graph-v2/source/buildings.osm.pbf
+4. 道路PBF沿用outputs/day24-network-v1/source/motor-roads.osm.pbf，篩選見DATA-NOTES.txt。
+5. work/day24-venv/bin/python outputs/day24-city2graph-v2/scripts/extract.py
+6. work/day24-venv/bin/python outputs/day24-city2graph-v2/scripts/build_graphs.py
+   可加參數0到5分市建構，依序臺北/新北/桃園/臺中/臺南/高雄。
+7. work/day24-venv/bin/python outputs/day24-city2graph-v2/scripts/validate.py
+8. work/day24-venv/bin/python outputs/day24-city2graph-v2/scripts/export_binary.py
+9. work/day24-venv/bin/python outputs/day24-city2graph-v2/scripts/export_inspect.py
+10. python3 -m http.server 8784 --bind 127.0.0.1
+    瀏覽器開啟 /outputs/day24-city2graph-v2/index.html。
+完整graph Parquet保留原geometry與ID；網頁二進位僅表達副本，Float32使用地方原點以減少精度損失。
+手機pinch與桌面wheel由瀏覽器互動；file://不能fetch，需本機http服務。未授權公開，不擅自部署。

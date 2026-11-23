@@ -1,0 +1,142 @@
+{
+  "臺北市": {
+    "source_building_objects": 78839,
+    "place_nodes": 82463,
+    "movement_nodes": 51819,
+    "edges": {
+      "place--touched_to--place": {
+        "count": 139028,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 6
+      },
+      "movement--connected_to--movement": {
+        "count": 106703,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      },
+      "place--faced_to--movement": {
+        "count": 273361,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      }
+    },
+    "unrepresented_building_objects": 2779,
+    "places_without_building_id": 5634,
+    "invalid_place_polygons": 0
+  },
+  "桃園市": {
+    "source_building_objects": 58788,
+    "place_nodes": 72096,
+    "movement_nodes": 94422,
+    "edges": {
+      "place--touched_to--place": {
+        "count": 112385,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 2
+      },
+      "movement--connected_to--movement": {
+        "count": 183388,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      },
+      "place--faced_to--movement": {
+        "count": 377124,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      }
+    },
+    "unrepresented_building_objects": 231,
+    "places_without_building_id": 13438,
+    "invalid_place_polygons": 0
+  },
+  "臺中市": {
+    "source_building_objects": 65861,
+    "place_nodes": 84733,
+    "movement_nodes": 117430,
+    "edges": {
+      "place--touched_to--place": {
+        "count": 124184,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 3
+      },
+      "movement--connected_to--movement": {
+        "count": 235571,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 43
+      },
+      "place--faced_to--movement": {
+        "count": 479124,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      }
+    },
+    "unrepresented_building_objects": 576,
+    "places_without_building_id": 19237,
+    "invalid_place_polygons": 0
+  },
+  "臺南市": {
+    "source_building_objects": 49732,
+    "place_nodes": 73359,
+    "movement_nodes": 128270,
+    "edges": {
+      "place--touched_to--place": {
+        "count": 89355,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 2
+      },
+      "movement--connected_to--movement": {
+        "count": 257660,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 1
+      },
+      "place--faced_to--movement": {
+        "count": 502387,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      }
+    },
+    "unrepresented_building_objects": 549,
+    "places_without_building_id": 23948,
+    "invalid_place_polygons": 0
+  },
+  "高雄市": {
+    "source_building_objects": 34267,
+    "place_nodes": 57665,
+    "movement_nodes": 120290,
+    "edges": {
+      "place--touched_to--place": {
+        "count": 52853,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      },
+      "movement--connected_to--movement": {
+        "count": 246312,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      },
+      "place--faced_to--movement": {
+        "count": 471092,
+        "missing_endpoints": 0,
+        "empty_geometry": 0,
+        "invalid_geometry": 0
+      }
+    },
+    "unrepresented_building_objects": 183,
+    "places_without_building_id": 23399,
+    "invalid_place_polygons": 0
+  }
+}

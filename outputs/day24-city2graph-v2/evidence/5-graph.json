@@ -1,0 +1,14 @@
+{
+  "city": "高雄市",
+  "city2graph": "1.1.0",
+  "seconds": 456.8306638337672,
+  "nodes": {
+    "place": 57665,
+    "movement": 120290
+  },
+  "edges": {
+    "place--touched_to--place": 52853,
+    "movement--connected_to--movement": 246312,
+    "place--faced_to--movement": 471092
+  }
+}

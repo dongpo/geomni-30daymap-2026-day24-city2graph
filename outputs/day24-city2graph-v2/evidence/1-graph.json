@@ -1,0 +1,14 @@
+{
+  "city": "新北市",
+  "city2graph": "1.1.0",
+  "seconds": 1309.0012406250462,
+  "nodes": {
+    "place": 62277,
+    "movement": 89946
+  },
+  "edges": {
+    "place--touched_to--place": 93649,
+    "movement--connected_to--movement": 169163,
+    "place--faced_to--movement": 338458
+  }
+}

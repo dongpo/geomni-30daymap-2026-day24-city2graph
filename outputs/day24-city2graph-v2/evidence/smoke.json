@@ -1,0 +1,1 @@
+{"scope": "1km test only, not six-city deliverable", "version": "1.1.0", "nodes": {"place": 896, "movement": 439}, "edges": {"place--touched_to--place": 1469, "movement--connected_to--movement": 930, "place--faced_to--movement": 2601}, "seconds": 5.350890042260289}

@@ -1,0 +1,20 @@
+{
+  "seconds": 32,
+  "resolution": [
+    1128,
+    1144
+  ],
+  "original_frame_resolution": [
+    1128,
+    1080
+  ],
+  "encoded_fps": 30,
+  "capture_frames": 1147,
+  "capture_method": "Timestamped actual browser screenshots during CUA UI operations; resampled to 30fps, no map frame synthesis",
+  "capture_average_fps": 35.84375,
+  "max_capture_gap_s": 1.141,
+  "audio": "none; map has no audio",
+  "aspect_ratio": "original frame retained pixel-for-pixel; added 64px subtitle band",
+  "decode": "PASS",
+  "sha256": "97767e8f0a022502f21f3a29ba10bb832ba167b1fb26d91aebbd85b26498f9e1"
+}

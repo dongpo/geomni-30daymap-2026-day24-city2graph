@@ -1,0 +1,26 @@
+{
+  "臺北市": {
+    "buildings": 78839,
+    "segments": 53201
+  },
+  "新北市": {
+    "buildings": 51360,
+    "segments": 93391
+  },
+  "桃園市": {
+    "buildings": 58788,
+    "segments": 97088
+  },
+  "臺中市": {
+    "buildings": 65861,
+    "segments": 121133
+  },
+  "臺南市": {
+    "buildings": 49732,
+    "segments": 131701
+  },
+  "高雄市": {
+    "buildings": 34267,
+    "segments": 122641
+  }
+}

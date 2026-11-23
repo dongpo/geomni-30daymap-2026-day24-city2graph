@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-24",
+  "desktop_browser": "ChatGPT in-app browser",
+  "all_five_views_loaded": true,
+  "cross_city_focus": true,
+  "city_statistics_expand": true,
+  "boundary_toggle": true,
+  "cross_relationship_toggle": true,
+  "zoom_pan": true,
+  "node_pick": {
+    "movement_id": "114102",
+    "osm_id": "w541460666",
+    "movement_degree": 4,
+    "interface_degree": 3
+  },
+  "full_extent_and_common_scale": true,
+  "layer_toggles": true,
+  "mobile_performance": "NOT_TESTED",
+  "cpu_draw_submission_ms": {
+    "雙北": 0.8,
+    "桃園": 0.3,
+    "臺中": 0.1,
+    "臺南": 0.1,
+    "高雄": 0.1
+  },
+  "timing_limit": "CPU submission only, not GPU complete or FPS",
+  "screenshots": [
+    "evidence/five-city-overview.png",
+    "evidence/cross-city-detail.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "city": "臺南市",
+  "city2graph": "1.1.0",
+  "seconds": 474.2695359168574,
+  "nodes": {
+    "place": 73359,
+    "movement": 128270
+  },
+  "edges": {
+    "place--touched_to--place": 89355,
+    "movement--connected_to--movement": 257660,
+    "place--faced_to--movement": 502387
+  }
+}

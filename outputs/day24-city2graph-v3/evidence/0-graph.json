@@ -1,0 +1,15 @@
+{
+  "city": "雙北",
+  "city2graph": "1.1.0",
+  "seconds": 1094.3258922910318,
+  "nodes": {
+    "place": 144719,
+    "movement": 141625
+  },
+  "edges": {
+    "place--touched_to--place": 232519,
+    "movement--connected_to--movement": 276047,
+    "place--faced_to--movement": 612696
+  },
+  "method": "one morphological_graph call on deduplicated merged inputs; no internal city boundary barrier"
+}

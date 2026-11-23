@@ -1,0 +1,14 @@
+{
+  "city": "桃園市",
+  "city2graph": "1.1.0",
+  "seconds": 790.8721313336864,
+  "nodes": {
+    "place": 72096,
+    "movement": 94422
+  },
+  "edges": {
+    "place--touched_to--place": 112385,
+    "movement--connected_to--movement": 183388,
+    "place--faced_to--movement": 377124
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "duplicated_building_ids": [
+    "w341564783"
+  ],
+  "conflicting_building_geometry_ids": [],
+  "remaining_duplicate_street_keys": 0,
+  "remaining_duplicate_building_ids": 0,
+  "all_unique_source_streets_preserved": true,
+  "all_unique_source_buildings_preserved": true
+}

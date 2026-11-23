@@ -1,0 +1,12 @@
+{
+  "buildings": {
+    "before": 130199,
+    "duplicate_rows_removed": 1,
+    "after": 130198
+  },
+  "streets": {
+    "before": 146592,
+    "duplicate_rows_removed": 214,
+    "after": 146378
+  }
+}

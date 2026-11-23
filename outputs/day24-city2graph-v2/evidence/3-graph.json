@@ -1,0 +1,14 @@
+{
+  "city": "臺中市",
+  "city2graph": "1.1.0",
+  "seconds": 712.0284786252305,
+  "nodes": {
+    "place": 84733,
+    "movement": 117430
+  },
+  "edges": {
+    "place--touched_to--place": 124184,
+    "movement--connected_to--movement": 235571,
+    "place--faced_to--movement": 479124
+  }
+}

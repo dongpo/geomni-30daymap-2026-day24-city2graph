@@ -1,0 +1,21 @@
+{
+  "place": {
+    "新北市": 62163,
+    "界外／待核": 105,
+    "臺北市": 82451
+  },
+  "movement": {
+    "新北市": 89696,
+    "界外／待核": 178,
+    "臺北市": 51751
+  },
+  "cross_city": {
+    "place--touched_to--place": 392,
+    "movement--connected_to--movement": 305,
+    "place--faced_to--movement": 1128
+  },
+  "source_buildings": {
+    "臺北市": 78839,
+    "新北市": 51359
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "place--touched_to--place": {
+    "separate_edge_rows_sum": 232677,
+    "rebuilt_edge_rows": 232519,
+    "cross_city_rows": 392,
+    "cross_city_geometries_not_in_separate_graphs_at_1cm": 388
+  },
+  "movement--connected_to--movement": {
+    "separate_edge_rows_sum": 275866,
+    "rebuilt_edge_rows": 276047,
+    "cross_city_rows": 305,
+    "cross_city_geometries_not_in_separate_graphs_at_1cm": 64
+  },
+  "place--faced_to--movement": {
+    "separate_edge_rows_sum": 611819,
+    "rebuilt_edge_rows": 612696,
+    "cross_city_rows": 1128,
+    "cross_city_geometries_not_in_separate_graphs_at_1cm": 1013
+  }
+}
